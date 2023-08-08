@@ -51,7 +51,7 @@ const switchplayer = function () {
 
 // rolling dice functionality
 btnroll.addEventListener('click', function () {
-  if (playing) {
+  if (playing == true) {
     // generating a randon number
     const dice = Math.ceil(Math.random() * 6);
     console.log(dice);
